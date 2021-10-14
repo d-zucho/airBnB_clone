@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Banner from '../components/banner/Banner'
 
 // REPRESENTS HOME PAGE
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Air BnB</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,6 +15,7 @@ export default function Home() {
       {/* -- Header -- */}
       <Header />
       {/* -- Banner --  */}
+      <Banner />
     </div>
   )
 }
