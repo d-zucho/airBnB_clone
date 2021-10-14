@@ -10,7 +10,7 @@ import {
 function Header() {
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10 ">
-      <div className="relative flex items-center h-10 cursor-pointer my-auto">
+      <div className="relative mr-2 flex items-center h-10 cursor-pointer my-auto">
         {/* using Nexths Img - which optimizes image as webP */}
         <Image
           src="https://links.papareact.com/qd3"
